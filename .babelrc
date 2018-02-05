@@ -1,0 +1,9 @@
+{
+    "presets": [
+        ["es2015"]
+    ],
+    "plugins": ["transform-object-rest-spread", ["component", [{
+            "libraryName": "mint-ui",
+            "style": true
+        }]]] //增加这一行
+}
